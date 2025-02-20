@@ -9,8 +9,6 @@ This repository contains the code for my Master's thesis in Economics at LMU Mun
 - [Data](#data)
 - [Running the Code](#running-the-code)
 - [Reproducibility](#reproducibility)
-- [Citations & Acknowledgements](#citations--acknowledgements)
-- [License](#license)
 - [Contact](#contact)
 
 ## Overview 
