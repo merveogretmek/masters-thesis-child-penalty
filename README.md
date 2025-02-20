@@ -31,6 +31,7 @@ The project is structured to allow for a step-by-step reproduction of the analys
 ```bash
 /code
   ├── 01_cleaning          # Scripts for data cleaning and preprocessing.
+  │    ├── 01_cleaning.py
   ├── 02_estimation        # Estimation routines, including heterogeneous analysis.
   │    ├── 0201_estimation_general.py
   │    ├── 0202_estimation_resarea.py
@@ -49,9 +50,15 @@ The project is structured to allow for a step-by-step reproduction of the analys
   │    ├── 0215_reform_estimation_parenthoodage.py
   │    └── 0216_reform_estimation_partnership.py
   ├── 03_visualization     # Code for generating figures and visual summaries.
-  ├── 04_results           # Scripts and utilities for compiling and formatting results.
-  ├── 05_validity_checks   # Scripts for performing robustness and validity checks.
+  │    ├── 03_visualization.py
+  ├── 04_results           # Figures 
+  ├── 05_validity_checks   # Script for performing robustness and validity checks.
+  │    ├── 05_validity_checks.py
   └── 06_app               # Code for the interactive app component.
+        ├── assets         
+        ├── app.py         
+        ├── requirements.txt  
+        └── results        
   
 /data                      # Data folder (not included on GitHub due to restrictions)
 ```
