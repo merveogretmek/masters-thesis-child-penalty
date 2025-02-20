@@ -73,4 +73,12 @@ Before running the code, ensure you have the following environment setup:
   * `statsmodels`
   * `plotly`
   * Additional packages as specified in the [requirements.txt](requirements.txt).
+
+You can install the required packages with:
+
+```bash
+pip install -r requirements.txt
+```
+
+
  
