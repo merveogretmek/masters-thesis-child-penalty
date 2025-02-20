@@ -20,4 +20,12 @@ This repository contains the code for my Master's thesis in Economics at LMU Mun
 - [License](#license)
 - [Contact](#contact)
 
+## Overview 
+
+This thesis investigates the "child penalty"-how parenthood affects earnings- in the context of the German market between 1984 and 2020. A key focus of the study is understanding the role of parental leave policy (Elterngeld) in shaping these outcomes. The research uses event-study estimation, a series of robustness and validity checks, and visualization techniques to provide insights into the dynamics of pay gaps post-parenthood.
+
+The project is structured to allow for a step-by-step reproduction of the analysis, from data cleaning and estimation to result generation and interactive application deployment.
+
+## Repository Structure
+
 
