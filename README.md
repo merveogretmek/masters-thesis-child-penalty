@@ -71,6 +71,6 @@ Before running the code, ensure you have the following environment setup:
   * `pandas`
   * `numpy`
   * `statsmodels`
-  * `matplotlib`/`seaborn`
-  * Additional packages are specified in the [requirements.txt](requirements.txt)
-
+  * `plotly`
+  * Additional packages as specified in the [requirements.txt](requirements.txt).
+ 
