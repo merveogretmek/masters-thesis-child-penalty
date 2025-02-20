@@ -28,6 +28,7 @@ The project is structured to allow for a step-by-step reproduction of the analys
 
 ## Repository Structure
 
+'''console
 /code
   ├── 01_cleaning          # Scripts for data cleaning and preprocessing.
   ├── 02_estimation        # Estimation routines, including heterogeneous analysis.
@@ -53,6 +54,5 @@ The project is structured to allow for a step-by-step reproduction of the analys
   └── 06_app               # Code for the interactive app component.
   
 /data                      # Data folder (not included on GitHub due to restrictions)
-
-
+'''
 
