@@ -28,4 +28,31 @@ The project is structured to allow for a step-by-step reproduction of the analys
 
 ## Repository Structure
 
+/code
+  ├── 01_cleaning          # Scripts for data cleaning and preprocessing.
+  ├── 02_estimation        # Estimation routines, including heterogeneous analysis.
+  │    ├── 0201_estimation_general.py
+  │    ├── 0202_estimation_resarea.py
+  │    ├── 0203_estimation_region.py
+  │    ├── 0204_estimation_sector.py
+  │    ├── 0205_estimation_origin.py
+  │    ├── 0206_estimation_education.py
+  │    ├── 0207_estimation_parenthoodage.py
+  │    ├── 0208_estimation_partnership.py
+  │    ├── 0209_reform_estimation_general.py
+  │    ├── 0210_reform_estimation_resarea.py
+  │    ├── 0211_reform_estimation_region.py
+  │    ├── 0212_reform_estimation_sector.py
+  │    ├── 0213_reform_estimation_origin.py
+  │    ├── 0214_reform_estimation_education.py
+  │    ├── 0215_reform_estimation_parenthoodage.py
+  │    └── 0216_reform_estimation_partnership.py
+  ├── 03_visualization     # Code for generating figures and visual summaries.
+  ├── 04_results           # Scripts and utilities for compiling and formatting results.
+  ├── 05_validity_checks   # Scripts for performing robustness and validity checks.
+  └── 06_app               # Code for the interactive app component.
+  
+/data                      # Data folder (not included on GitHub due to restrictions)
+
+
 
