@@ -95,6 +95,7 @@ python 01_cleaning.py
 ```
 
 ### Estimation
+
 * The `02_estimation` folder contains multiple scripts to run various estimation models. For example, to run the general estimation:
 
 ```bash
@@ -102,6 +103,25 @@ python 0201_estimation_general.py
 ```
 
 * For subgroup analyses (e.g., by residential area, region, sector, etc.), run the corresponding scripts (e.g., `0202_estimation_resarea.py`, `0203_estimation_region.py`, etc.).
+
+### Reform Estimation
+
+* To examine the impact of the reform (changes in parental leave policy), execute the reform-specific estimation scripts:
+
+```bash
+python 0209_reform_estimation_general.py
+```
+
+* Similarly, run scripts such as `0210_reform_estimation_resarea.py`, `0211_reform_estimation_region.py`, etc.
+
+### Visualization
+
+* Generate figures and graphical summaries by running the scripts in the `03_visualization` folder:
+
+```bash
+python 0303_visualization.py
+```
+* 
 
 
  
