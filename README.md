@@ -8,13 +8,6 @@ This repository contains the code for my Master's thesis in Economics at LMU Mun
 - [Setup & Dependencies](#setup--dependencies)
 - [Data](#data)
 - [Running the Code](#running-the-code)
-- [Folder Details](#folder-details)
-  - [01_cleaning](#01_cleaning)
-  - [02_estimation](#02_estimation)
-  - [03_visualization](#03_visualization)
-  - [04_results](#04_results)
-  - [05_validity_checks](#05_validity_checks)
-  - [06_app](#06_app)
 - [Reproducibility](#reproducibility)
 - [Citations & Acknowledgements](#citations--acknowledgements)
 - [License](#license)
@@ -121,7 +114,52 @@ python 0209_reform_estimation_general.py
 ```bash
 python 0303_visualization.py
 ```
-* 
+
+### Validity Checks
+
+* Run the following script to check for certain assumptions that strengthen the analysis:
+
+```bash
+python 05_validity_checks.py
+```
+
+### Interactive App
+
+* The interactive app is located in the `06_app` folder. First, navigate to this folder and install dependencies specific to the app:
+
+```bash
+cd 06_app
+pip install -r requirements.txt
+```
+
+* Then, launch the app by running:
+
+```bash
+python app.py
+```
+
+* The `assets` folder contains supplementary files (such as images and styles), and the results stores outputs used by the app.
+
+## Reproducibility 
+
+If you wish to replicate or extend this study, please ensure the following:
+
+* Use the same data processing steps as detailed in the cleaning script.
+* Follow the prescribed order of operations from data cleaning to result generation.
+* Document any deviations from the original analysis and provide a rationale for such changes.
+
+Most of the code is thoroughly commented to aid understanding and reproducibility.
+
+## Contact
+
+For any questions or further information, please contact:
+
+* **Name:** Merve Ogretmek
+* **Email:** Merve.Oegretmek@campus.lmu.de
+
+Feedback and contributions are welcome.
+
+  
 
 
  
