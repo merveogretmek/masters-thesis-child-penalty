@@ -80,5 +80,28 @@ You can install the required packages with:
 pip install -r requirements.txt
 ```
 
+## Data
+
+The repository references a data folder that contains the raw and processed data used for the analysis. Due to data privacy and licensing restrictions, the data is not included in this repository. Users interested in replicating the study will need to obtain the SOEP data by contacting the data owner directly.
+
+## Running the Code
+
+### Data Cleaning
+
+* Navigate to the `01_cleaning` folder and run the cleaning script to preprocess the raw data.
+
+```bash
+python 01_cleaning.py
+```
+
+### Estimation
+* The `02_estimation` folder contains multiple scripts to run various estimation models. For example, to run the general estimation:
+
+```bash
+python 0201_estimation_general.py
+```
+
+* For subgroup analyses (e.g., by residential area, region, sector, etc.), run the corresponding scripts (e.g., `0202_estimation_resarea.py`, `0203_estimation_region.py`, etc.).
+
 
  
