@@ -63,3 +63,8 @@ The project is structured to allow for a step-by-step reproduction of the analys
 /data                      # Data folder (not included on GitHub due to restrictions)
 ```
 
+## Setup & Dependencies
+
+Before running the code, ensure you have the following environment setup:
+* **Python Version**: Python 3.7 or higher
+
