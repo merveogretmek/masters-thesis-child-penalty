@@ -60,7 +60,7 @@ The project is structured to allow for a step-by-step reproduction of the analys
         ├── requirements.txt  
         └── results        
   
-/data                      # Data folder (not included on GitHub due to restrictions)
+/data                       # Data folder (not included on GitHub due to restrictions)
 ```
 
 ## Setup & Dependencies
